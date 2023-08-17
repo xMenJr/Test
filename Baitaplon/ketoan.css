@@ -1,0 +1,257 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+#header{
+    background-color: black;
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 250px;
+    padding: 10px 30px 5px 50px;
+}
+.father{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.father li a{
+    display: block;
+    padding: 25px 10px;
+    font-size: 20px;
+}
+.father li{
+    position: relative;
+    list-style: none;
+}
+.father li a:hover{
+    color: red;
+}
+.father ul.child{
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    display: none;
+    top: 73px;
+    left: 0px;
+}
+.child li:hover{
+    background-color: rgb(39, 39, 39);
+}
+.father li:hover .child{
+    display: block;
+}
+.out{
+    font-size: 20px;
+}
+.right{
+    display: flex;
+    padding-left: 320px;
+}
+.out:hover{
+    color: red;
+}
+#image{
+    width: 100%;
+    height: 600px;
+}
+.ketoan{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.out{
+    padding-top: 5px;
+}
+p{
+    font-size: 20px;
+}
+.function{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.function li a{
+    display: block;
+    padding: 22px 10px;
+    font-size: 20px;
+}
+.function li{
+    position: relative;
+    list-style: none;
+}
+.function li a:hover{
+    color: red;
+}
+.function ul.work{
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    display: none;
+    top: 73px;
+    left: -157.5px;
+}
+.work li:hover{
+    background-color: rgb(39, 39, 39);
+}
+.function li:hover .work{
+    display: block;
+}
+.kt, .thoat{
+    padding: 25px 5px 0px 10px;
+}
+.accountant{
+    color: white;
+    font-size: 20px;
+}
+.ketoan{
+    padding-top: 18px;
+}
+/*  */
+/* CSS footer */
+#footer{
+    background-color: black;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+b{
+    font-size: 30px;
+}
+.para{
+    flex-basis: 20%;
+}
+a{
+    font-size: 18px;
+}
+.fft{
+    padding: 10px;
+}
+.email{
+    padding-bottom: 50px;
+}
+.congty{
+    padding-top: 20px   ;
+}
+.congty:hover, .address:hover, .number:hover, .em:hover, .news:hover, .event:hover, .history:hover, .congty:hover, .tuyendung:hover, .cophieu:hover{
+    color: red;
+}
+i{
+    font-size: 20px;
+    color: red;
+}
+.para1, .para2, .para3{
+    padding-top: 20px;
+}
+.fa-map-marker-alt{
+    font-size: 25px;
+}
+/*  */
+/* Body */
+h1{
+    color: black;
+    padding: 20px;
+    margin-left: 600px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.box1{
+    border: 2px solid black;
+    width: 399px;
+}
+.box2{
+    border: 2px solid black;
+    width: 399px;
+}
+.box3{
+    border: 2px solid black;
+    width: 399px;
+}
+.pr{
+    height: 310px;
+}
+h2{
+    color: black;
+    background-color: aliceblue;
+}
+.sofa{
+    width: 399px;
+    height: 310px;
+}
+.sf{
+    padding-left: 170px;
+}
+.banda{
+    width: 399px;
+    height: 310px;
+}
+.bd{
+    padding-left: 160px;
+}
+.phongan{
+    width: 399px;
+    height: 310px;
+}
+.bg{
+    padding-left: 120px;
+}
+.box1:hover, .box2:hover, .box3:hover{
+    transform: scale(1.1);
+}
+.gioithieu{
+    display: flex;
+    justify-content: space-around;
+}
+.gt{
+    width: 600px;
+    margin-left: 80px;
+}
+p{
+    color: black;
+    font-size: 18px;
+}
+.vingr{
+    width: 600px;
+    border: 5px solid lightgrey;
+    margin-right: 80px;
+}
+.gtct{
+    color: black;
+    padding: 20px;
+    margin-left: 400px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+button{
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: black;
+}
+button:hover{
+    background-color: red;
+}
+.sp{
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    margin: 40px 0px 40px 580px;
+    font-size: 35px;
+}
+/*  */

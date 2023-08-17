@@ -1,0 +1,45 @@
+.back{
+    width: 40px;
+    padding: 10px 10px 10px 25px;
+}
+img{
+    width: 300px;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+.left{
+    padding: 15px;
+}
+.wrap {
+    display: flex;
+}
+input {
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(232, 232, 232);
+    font-size: 20px;
+    border: 0px;
+    padding-left: 20px;
+}
+#submit {
+    height: 60px;
+    padding: 0px 40px;
+    background-color: black;
+    color: white;
+    margin-left: 150px;
+}
+#submit:hover {
+    background-color: lightskyblue;
+    border: 0px;
+}
+.dangnhap {
+    font-size: 20px;
+    margin: 150px 0px 0px 200px;
+}
+.image{
+    margin: 150px 0px 0px 300px;
+}

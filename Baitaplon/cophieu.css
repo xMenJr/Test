@@ -1,0 +1,157 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+#header{
+    background-color: black;
+}
+nav{
+    display: flex;
+}
+.logo{
+    width: 250px;
+    padding: 10px 30px 5px 50px;
+}
+.father{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.father li a{
+    display: block;
+    padding: 25px 10px;
+    font-size: 20px;
+    color: white;
+}
+.father li{
+    position: relative;
+    list-style: none;
+}
+.father li a:hover{
+    color: red;
+}
+.father ul.child{
+    position: absolute;
+    background-color: black;
+    width: 200px;
+    display: none;
+    top: 73px;
+    left: 0px;
+}
+.child li:hover {
+    background-color: rgb(39, 39, 39);
+}
+.father li:hover .child{
+    display: block;
+}
+.topright{
+    margin: 25px 40px 0px 433px;
+}
+.out{
+    font-size: 20px;
+}
+.out:hover{
+    color: red;
+}
+/*  */
+/* body */
+#contents{
+    margin-bottom: 50px;
+}
+.bdck{
+    width: 1519px;
+}
+h1{
+    padding: 20px;
+    margin-left: 580px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+h2{
+    margin-left: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.share{
+    margin-bottom: 150px;
+}
+.mack1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 40px 0px;
+    border-bottom: 1px solid #ececef;
+}
+.info{
+    display: flex;
+    margin-left: 150px;
+}
+.price{
+    padding: 30px;
+    font-size: 20px;
+}
+.add{
+    color: #16b14b;
+}
+.market, .dienbien{
+    border: 1px solid #ececef;
+    box-shadow: inset 6px 8px 15px rgb(220 226 235 / 50%);
+}
+.bieudo, .khoiluong{
+    width: 1495px;
+    padding-bottom: 20px;
+}
+.money, .giaodich{
+    font-size: 30px;
+    padding-left: 180px;
+}
+.mack2, .mack3{
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+/* footer */
+#footer{
+    background-color: black;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+b{
+    font-size: 30px;
+    color: white;
+}
+.para{
+    flex-basis: 20%;
+}
+a{
+    font-size: 18px;
+    color: white;
+}
+.fft{
+    padding: 10px;
+}
+.email{
+    padding-bottom: 50px;
+}
+.congty{
+    padding-top: 20px   ;
+}
+.congty:hover, .address:hover, .number:hover, .em:hover, .news:hover, .event:hover, .history:hover, .congty:hover, .tuyendung:hover, .cophieu:hover{
+    color: red;
+}
+i{
+    font-size: 20px;
+    color: red;
+}
+.para1, .para2, .para3{
+    padding-top: 20px;
+}
+.fa-map-marker-alt{
+    font-size: 25px;
+}
+/*  */

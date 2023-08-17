@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="dangnhap.css">
+    <script src="dangnhap.js"></script>
+</head>
+<body>
+    <div class="return">
+        <img onclick="myFunction()" class="back" src="back.png" alt="">
+    </div>
+    <div class="wrap">
+        <div class="image">
+            <img src="img.png" alt="">
+            <p>Bạn quên mật khẩu ? Tài khoản / Mật khẩu?</p>
+        </div>
+        <div class="dangnhap">
+            <form action="">
+                <h2>ĐĂNG NHẬP QUẢN TRỊ WEBSITE</h2>
+                <div class="row">
+                    <div class="left">Tài khoản</div>
+                    <div class="right">
+                        <input type="text" placeholder="Tài khoản" id="taikhoan">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">Mật khẩu</div>
+                    <div class="right">
+                        <input type="password" placeholder="Mật khẩu" id="matkhau">
+                    </div>
+                </div>
+                <div>
+                    <input type="button" value="Đăng Nhập" id="submit" onclick="loGin()" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
